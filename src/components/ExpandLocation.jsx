@@ -77,13 +77,13 @@ const ExpandLocation = () => {
           <input
             type="text"
             placeholder="Type your area"
-            className="border border-gray-300 rounded px-4 py-2 flex-1 focus:outline-none focus:ring-2 focus:ring-purple-200"
+            className="border border-gray-300 rounded px-4 py-2 flex-1 focus:outline-none focus:ring-2 focus:ring-pink-200"
             value={input}
             onChange={(e) => setInput(e.target.value)}
           />
           <button
             type="submit"
-            className="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700 transition"
+            className="bg-pink-600 text-white px-6 py-2 rounded hover:bg-pink-700 transition"
           >
             SUBMIT
           </button>

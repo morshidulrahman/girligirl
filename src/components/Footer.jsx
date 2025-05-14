@@ -76,10 +76,10 @@ const Footer = () => {
           <h4 className="font-bold text-gray-800 mb-2">Reach Out to us</h4>
           <ul className="space-y-2 text-gray-700">
             <li className="flex items-center gap-2">
-              <Mail size={18} /> shop@fashionista.com
+              <Mail size={18} /> shop@girligirl.com
             </li>
             <li className="flex items-center gap-2">
-              <Phone size={18} /> +99012345
+              <Phone size={18} /> 01728381737, 01336251929
             </li>
           </ul>
         </div>

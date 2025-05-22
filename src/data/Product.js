@@ -56,28 +56,28 @@ export const sliders = [
     description:
       "Unveil your unique fashion statement with our latest collection at Girligirl. From comfortable everyday wear to stunning outfits for special occasions, we bring you the best of both worlds. Refresh your wardrobe and elevate your look with our handpicked styles.",
     cta: "Explore the Collection",
-    image: "/img/dress.png", // Replace with actual image path or URL
+    image: "/hero-banner-2-web.webp", // Replace with actual image path or URL
   },
   {
     title: "Glamour Awaits  Transform Your Look with Beauty Services",
     description:
       "Treat yourself to the ultimate beauty experience at Ruthi’s Aesthetics Beauty. Whether you're looking for a chic new haircut, a soothing hair steam, or precise threading, we’ve got you covered. Let us help you radiate confidence and elegance every day.",
     cta: "Book Your Beauty Session",
-    image: "/img/girl.png", // Replace with actual image path or URL
+    image: "/banner1.jpg", // Replace with actual image path or URL
   },
   {
     title: "Where Fashion Meets Beauty  A Complete Experience",
     description:
       "At Girligirl, we believe in offering more than just great fashion. From exploring the latest women’s wear to indulging in luxurious beauty treatments, every visit is a new opportunity to redefine your style and glow. ",
     cta: "Visit Us Now",
-    image: "/img/dress.png",
+    image: "/hero-banner-2-web.webp",
   },
   {
     title: "Elegance in Every Detail Precision Beauty Services",
     description:
       "Looking for a flawless look? Ruthi’s Aesthetics Beauty offers precision services like ear and nose piercings, threading, and haircuts with the highest standards of professionalism and care. ",
     cta: "Get Pampered Today",
-    image: "/img/dress.png", // Replace with actual image path or URL
+    image: "/hero-banner-1-web.webp", // Replace with actual image path or URL
   },
 ];
 
@@ -148,7 +148,7 @@ export const allServices = [
     duration: "40 min",
     orders: 1397,
     price: 750,
-    image: "/img/girl.png",
+    image: "/service/Bangs1673798978.webp",
   },
   {
     category: "Body Care",
@@ -158,7 +158,7 @@ export const allServices = [
     duration: "45 min",
     orders: 9612,
     price: 750,
-    image: "/img/services/pedicure1.jpg",
+    image: "/service/bridal1.webp",
   },
   {
     category: "Body Care",
@@ -168,7 +168,7 @@ export const allServices = [
     duration: "85 min",
     orders: 15912,
     price: 1199,
-    image: "/img/services/manipedi.jpg",
+    image: "/service/bridal2.webp",
   },
   {
     category: "Body Care",
@@ -178,7 +178,7 @@ export const allServices = [
     duration: "60 min",
     orders: 2100,
     price: 950,
-    image: "/img/services/facial.jpg",
+    image: "/service/engagemaker.webp",
   },
   {
     category: "Body Care",
@@ -188,7 +188,7 @@ export const allServices = [
     duration: "50 min",
     orders: 1200,
     price: 1200,
-    image: "/img/services/massage.jpg",
+    image: "/service/spa2.webp",
   },
   // Hair Care
   {
@@ -199,7 +199,7 @@ export const allServices = [
     duration: "40 min",
     orders: 800,
     price: 850,
-    image: "/img/services/hairspa.jpg",
+    image: "/service/frontent1.webp",
   },
   {
     category: "Hair Care",
@@ -209,7 +209,7 @@ export const allServices = [
     duration: "90 min",
     orders: 450,
     price: 1800,
-    image: "/img/services/haircolor.jpg",
+    image: "/service/hair_long.webp",
   },
   // Makeover
   {
@@ -220,7 +220,7 @@ export const allServices = [
     duration: "60 min",
     orders: 300,
     price: 2000,
-    image: "/img/services/party.jpg",
+    image: "/service/treatment1.webp",
   },
   // Bridal
   {
@@ -231,7 +231,7 @@ export const allServices = [
     duration: "120 min",
     orders: 150,
     price: 8000,
-    image: "/img/services/bridal.jpg",
+    image: "/service/spa2.webp",
   },
   // Packages
   {
@@ -242,7 +242,7 @@ export const allServices = [
     duration: "120 min",
     orders: 500,
     price: 2000,
-    image: "/img/services/combo.jpg",
+    image: "/packages/package1.webp",
   },
   // Premium
   {
@@ -253,7 +253,7 @@ export const allServices = [
     duration: "70 min",
     orders: 100,
     price: 2500,
-    image: "/img/services/goldfacial.jpg",
+    image: "/packages/package2.webp",
   },
   // Henna Art
   {
@@ -264,7 +264,7 @@ export const allServices = [
     duration: "30 min",
     orders: 200,
     price: 400,
-    image: "/img/services/henna.jpg",
+    image: "/packages/bridal2.webp",
   },
   // Hair Removal
   {
@@ -275,7 +275,7 @@ export const allServices = [
     duration: "30 min",
     orders: 600,
     price: 600,
-    image: "/img/services/waxing.jpg",
+    image: "/service/hair3.webp",
   },
   // Hairstyle
   {
@@ -286,6 +286,92 @@ export const allServices = [
     duration: "40 min",
     orders: 80,
     price: 1200,
-    image: "/img/services/hairstyle.jpg",
+    image: "/service/loghair.webp",
+  },
+];
+
+export const WomenProducts = [
+  {
+    id: 1,
+    name: "Women's Sharee",
+    price: 2190,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-RN-F4-25001-1.webp",
+    category: "Women",
+  },
+
+  {
+    id: 2,
+    name: "Women's Single Kamiz",
+    price: 3190,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/RBL-SHR-F7-00719-6-768x768.webp",
+    category: "Women",
+  },
+  {
+    id: 3,
+    name: "Women's Sharee",
+    price: 1790,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2024/01/RBL-SHR-00475-5-595x595.webp",
+    category: "Women",
+  },
+  {
+    id: 4,
+    name: "Women's Single Kamiz",
+    price: 1590,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RBL-KMZ-F4-00199-1-595x595.webp",
+    category: "Women",
+  },
+
+  {
+    id: 5,
+    name: "Women sharee",
+    price: 3290,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RBL-SHR-F4-00708-5-768x768.webp",
+    category: "Women",
+  },
+
+  {
+    id: 6,
+    name: "Women's Single Kamiz",
+    price: 1750,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-KMZ-RN-F4-25001-1-595x595.webp",
+    category: "Women",
+  },
+  {
+    id: 7,
+    name: "Cotton stitched dress",
+    price: 2050,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/RBL-DT-F7-00248-6-595x595.webp",
+    category: "Women",
+  },
+  {
+    id: 8,
+    name: "Women's Sharee",
+    price: 3400,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-NJ-E1-25100-3-768x768.webp",
+    category: "Women",
+  },
+  {
+    id: 9,
+    name: "Women's Sharee",
+    price: 2490,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-NJ-C1-25088-3-768x768.webp",
+    category: "Eid ul-Adha",
+  },
+  {
+    id: 10,
+    name: "Women's Sharee",
+    price: 2990,
+    image:
+      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-NJ-ET-25099-3-768x768.webp",
+    category: "Sale Offer",
   },
 ];

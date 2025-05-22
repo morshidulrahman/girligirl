@@ -10,14 +10,16 @@ import {
   MapPin,
   House,
   Phone,
+  ServerCog,
+  ShieldUser,
 } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home", icon: House },
-  { href: "/services", label: "Services", icon: Search },
+  { href: "/services", label: "Services", icon: ServerCog },
   { href: "/products", label: "Product", icon: ShoppingCart },
   { href: "/store", label: "Store Location", icon: MapPin },
-  { href: "/about", label: "About", icon: Search },
+  { href: "/about", label: "About", icon: ShieldUser },
   { href: "/contact", label: "Contact", icon: Phone },
 ];
 

@@ -15,7 +15,7 @@ const packages = [
     ],
     price: 3325,
     oldPrice: 4749,
-    image: "/img/girl.png",
+    image: "/packages/package1.webp",
   },
   {
     discount: "32% OFF",
@@ -30,7 +30,7 @@ const packages = [
     ],
     price: 4200,
     oldPrice: 6199,
-    image: "/img/packages/sukoon.jpg",
+    image: "/packages/package2.webp",
   },
   {
     discount: "34% OFF",
@@ -45,7 +45,7 @@ const packages = [
     ],
     price: 3620,
     oldPrice: 5529,
-    image: "/img/packages/barakh.jpg",
+    image: "/packages/package3.webp",
   },
   {
     discount: "29% OFF",
@@ -60,16 +60,22 @@ const packages = [
     ],
     price: 2999,
     oldPrice: 4260,
-    image: "/img/packages/noor.jpg",
+    image: "/packages/package4.webp",
   },
 ];
 
 const DiscoverMorePackages = () => {
   return (
     <section className="py-10">
-      <h2 className="text-2xl md:text-3xl font-semibold text-pink-700 mb-8 px-4">
-        Discover Our Exclusive Packages
+      <h2 className="text-2xl md:text-3xl font-semibold text-pink-700 mb-4 px-4 text-center">
+        ✨ Shop Ruthi’s Aesthetics Beauty Exclusive Self-Care Packages
       </h2>
+      <p className="pb-6 text-sm text-center max-w-3xl mx-auto">
+        Treat yourself to pampering and relaxation with our chosen beauty
+        treatments. Every service is carefully planned to leave you feeling
+        radiant, relaxed, and pampered. Indulge yourself, or even someone
+        else—because you deserve it.
+      </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4">
         {packages.map((pkg, idx) => (
           <div
@@ -77,7 +83,7 @@ const DiscoverMorePackages = () => {
             className="bg-white rounded-xl shadow-lg flex flex-col items-center p-4 relative"
           >
             {/* Discount Badge */}
-            <span className="absolute top-4 left-4 bg-pink-100 text-pink-600 text-xs font-bold px-3 py-1 rounded-full">
+            <span className="absolute top-6 left-6 bg-pink-100 text-pink-600 text-xs font-bold px-3 py-1 rounded-full">
               {pkg.discount}
             </span>
             {/* Image */}
@@ -116,7 +122,7 @@ const DiscoverMorePackages = () => {
                   ৳ {pkg.oldPrice.toLocaleString()}
                 </span>
               </div>
-              <button className="w-full bg-purple-600 text-white py-2 rounded font-semibold hover:bg-purple-700 transition">
+              <button className="w-full bg-pink-600 text-white py-2 rounded font-semibold hover:bg-pink-700 transition">
                 ADD TO CART
               </button>
             </div>

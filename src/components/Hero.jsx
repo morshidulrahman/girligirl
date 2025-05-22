@@ -13,7 +13,7 @@ const Hero = () => {
     <section className="bg-[#faf8ee]">
       <div className="flex flex-col lg:flex-row gap-6  py-10 overflow-hidden min-h-[500px] container mx-auto px-4">
         {/* Left Banner Slider */}
-        <div className=" bg-[#d6eaf8] rounded-lg p-0 lg:w-[70%] relative overflow-hidden flex items-center">
+        <div className=" rounded-lg p-0 lg:w-[70%] relative overflow-hidden flex items-center">
           <Swiper
             modules={[Autoplay, Pagination, Navigation]}
             autoplay={{ delay: 3500, disableOnInteraction: false }}
@@ -23,25 +23,19 @@ const Hero = () => {
           >
             {sliders.map((slide, idx) => (
               <SwiperSlide key={idx}>
-                <div className="flex flex-col md:flex-row items-center justify-between p-8 min-h-[320px] gap-8">
-                  <div className="flex-1 flex flex-col justify-center items-start">
+                <div
+                  className="relative p-8 min-h-[430px] gap-8 bg-cover bg-center"
+                  style={{ backgroundImage: `url('${slide.image}')` }}
+                >
+                  <div className="absolute inset-0 bg-black opacity-40"></div>
+                  <div className="flex-1 flex flex-col justify-center items-start z-50 relative w-full lg:w-[50%] py-10">
                     <h1 className="text-2xl md:text-4xl font-bold text-white mb-4">
                       {slide.title}
                     </h1>
-                    <p className="text-gray-700 mb-6">{slide.description}</p>
+                    <p className="text-gray-50 mb-6">{slide.description}</p>
                     <button className="bg-rose-400 text-white px-6 py-2 rounded hover:bg-rose-500 transition">
                       {slide.cta} &rarr;
                     </button>
-                  </div>
-                  <div className="flex-1 flex justify-end items-end">
-                    <Image
-                      src={slide.image}
-                      alt={slide.title}
-                      className="w-48 md:w-64 h-auto object-contain"
-                      width={400}
-                      height={400}
-                      style={{ zIndex: 1 }}
-                    />
                   </div>
                 </div>
               </SwiperSlide>

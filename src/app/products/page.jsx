@@ -6,11 +6,10 @@ import SingleProduct from "@/components/product/SingleProduct";
 
 const categories = [
   "Eid ul-Adha",
-  "Men's Panjabi",
+  "Valentine's Day",
   "New Arrival",
   "Sale Offer",
   "Women",
-  "Unstitched Dress",
   // ...add more categories as needed
 ];
 
@@ -39,10 +38,26 @@ const page = () => {
         <Slider
           min={500}
           max={10000}
-          step={100}
+          step={10}
           value={price}
           onValueChange={setPrice}
           range
+          renderThumb={(props, state) => (
+            <div
+              {...props}
+              className="rounded-full bg-gray-500 w-5 h-5 flex items-center justify-center shadow"
+            >
+              <div className="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 bg-gray-500 text-white text-xs rounded">
+                ৳
+                {state.valueNow.toLocaleString(undefined, {
+                  minimumFractionDigits: 2,
+                  maximumFractionDigits: 2,
+                })}
+              </div>
+            </div>
+          )}
+          trackClassName="bg-slate-400 h-3 rounded-full"
+          rangeClassName="bg-slate-500 h-3 rounded-full"
         />
         <div className="flex justify-between text-xs mt-2 mb-6">
           <span>{price[0]}</span>

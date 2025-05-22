@@ -14,10 +14,10 @@ import {
 
 const navLinks = [
   { href: "/", label: "Home", icon: House },
-  { href: "/about", label: "About", icon: Search },
-  { href: "/products", label: "Product", icon: ShoppingCart },
   { href: "/services", label: "Services", icon: Search },
+  { href: "/products", label: "Product", icon: ShoppingCart },
   { href: "/store", label: "Store Location", icon: MapPin },
+  { href: "/about", label: "About", icon: Search },
   { href: "/contact", label: "Contact", icon: Phone },
 ];
 

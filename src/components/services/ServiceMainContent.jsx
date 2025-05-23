@@ -85,7 +85,7 @@ const ServiceMainContent = () => {
         <div className="font-semibold text-gray-700 uppercase tracking-widest text-sm">
           {selectedCategory} Items
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 flex-wrap justify-center">
           <div className="relative">
             <input
               type="text"

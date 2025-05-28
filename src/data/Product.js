@@ -1,51 +1,52 @@
 export const products = [
   {
-    title: "Elegant Frok for Women",
-    price: 3350,
+    title: "eardrop for Women",
+    price: 1350,
     sizes: ["XL", "L", "M"],
-    image: "/img/dress.png",
+    image: "/yearing.jpg",
     bg: "bg-green-100",
   },
   {
-    title: "Sky Blue Shirt for Men",
-    price: 4200,
+    title: "half silk sharee for Girl",
+    price: 1400,
     sizes: ["XL", "L", "M"],
-    image: "/img/dress.png",
+    image: "/img/product/half_silk_sharee3.webp",
+    bg: "bg-green-100",
+  },
+  {
+    title: "cotton kamiz",
+    price: 3200,
+    sizes: ["XL", "L", "M"],
+    image: "/img/product/cotton_kamiz1.webp",
     bg: "bg-yellow-100",
   },
   {
-    title: "Red Salower for Girl",
-    price: 2600,
+    title: "half silk sharee for Girl",
+    price: 4600,
     sizes: ["XL", "L", "M"],
-    image: "/img/dress.png",
+    image: "/img/product/half_silk_sharee4.webp",
+    bg: "bg-green-100",
+  },
+
+  {
+    title: "Cotton sitched for Girl",
+    price: 1500,
+    sizes: ["XL", "L", "M"],
+    image: "/img/product/cotton_sitched_dress.webp",
     bg: "bg-green-100",
   },
   {
-    title: "Red Salower for Girl",
-    price: 2600,
+    title: "Lilen Kamiz dress for Girl",
+    price: 2000,
     sizes: ["XL", "L", "M"],
-    image: "/img/dress.png",
+    image: "/img/product/linen_kamiz.webp",
     bg: "bg-green-100",
   },
   {
-    title: "Red Salower for Girl",
+    title: "half silk sharee for Girl",
     price: 2600,
     sizes: ["XL", "L", "M"],
-    image: "/img/dress.png",
-    bg: "bg-green-100",
-  },
-  {
-    title: "Red Salower for Girl",
-    price: 2600,
-    sizes: ["XL", "L", "M"],
-    image: "/img/dress.png",
-    bg: "bg-green-100",
-  },
-  {
-    title: "Red Salower for Girl",
-    price: 2600,
-    sizes: ["XL", "L", "M"],
-    image: "/img/dress.png",
+    image: "/img/product/half_silk_sharee.webp",
     bg: "bg-green-100",
   },
 ];
@@ -56,28 +57,28 @@ export const sliders = [
     description:
       "Unveil your unique fashion statement with our latest collection at Girligirl. From comfortable everyday wear to stunning outfits for special occasions, we bring you the best of both worlds. Refresh your wardrobe and elevate your look with our handpicked styles.",
     cta: "Explore the Collection",
-    image: "/hero-banner-2-web.webp", // Replace with actual image path or URL
+    image: "/home_bg.jpg", // Replace with actual image path or URL
   },
   {
     title: "Glamour Awaits  Transform Your Look with Beauty Services",
     description:
       "Treat yourself to the ultimate beauty experience at Ruthi’s Aesthetics Beauty. Whether you're looking for a chic new haircut, a soothing hair steam, or precise threading, we’ve got you covered. Let us help you radiate confidence and elegance every day.",
     cta: "Book Your Beauty Session",
-    image: "/banner1.jpg", // Replace with actual image path or URL
+    image: "/home_bg_1.jpg", // Replace with actual image path or URL
   },
   {
     title: "Where Fashion Meets Beauty  A Complete Experience",
     description:
       "At Girligirl, we believe in offering more than just great fashion. From exploring the latest women’s wear to indulging in luxurious beauty treatments, every visit is a new opportunity to redefine your style and glow. ",
     cta: "Visit Us Now",
-    image: "/hero-banner-2-web.webp",
+    image: "/home_bg_2.jpg",
   },
   {
     title: "Elegance in Every Detail Precision Beauty Services",
     description:
       "Looking for a flawless look? Ruthi’s Aesthetics Beauty offers precision services like ear and nose piercings, threading, and haircuts with the highest standards of professionalism and care. ",
     cta: "Get Pampered Today",
-    image: "/hero-banner-1-web.webp", // Replace with actual image path or URL
+    image: "/home_bg_3.jpg", // Replace with actual image path or URL
   },
 ];
 
@@ -350,14 +351,7 @@ export const WomenProducts = [
       "https://rang-bd.com/wp-content/uploads/2025/05/RBL-DT-F7-00248-6-595x595.webp",
     category: "Women",
   },
-  {
-    id: 8,
-    name: "Women's Sharee",
-    price: 3400,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-NJ-E1-25100-3-768x768.webp",
-    category: "Women",
-  },
+
   {
     id: 9,
     name: "Women's Sharee",

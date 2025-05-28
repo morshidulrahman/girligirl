@@ -27,7 +27,7 @@ const Hero = () => {
                   className="relative p-8 min-h-[430px] gap-8 bg-cover bg-center"
                   style={{ backgroundImage: `url('${slide.image}')` }}
                 >
-                  <div className="absolute inset-0 bg-black opacity-40"></div>
+                  <div className="absolute inset-0 bg-black opacity-70"></div>
                   <div className="flex-1 flex flex-col justify-center items-start z-50 relative w-full lg:w-[50%] py-10">
                     <h1 className="text-2xl md:text-4xl font-bold text-white mb-4">
                       {slide.title}

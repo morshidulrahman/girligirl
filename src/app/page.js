@@ -1,6 +1,7 @@
 import ExpandLocation from "@/components/ExpandLocation";
 import FeatureOfBeauty from "@/components/FeatureOfBeauty";
 import Hero from "@/components/Hero";
+import OurGallery from "@/components/OurGallery";
 import OurServiceInAction from "@/components/OurServiceInAction";
 import OurProduct from "@/components/product/OurProduct";
 import Service from "@/components/Service";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <FeatureOfBeauty />
       <Service />
+      <OurGallery />
       <TrendingService />
       <OurProduct />
       <OurServiceInAction />

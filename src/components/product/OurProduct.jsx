@@ -10,7 +10,7 @@ const OurProduct = () => {
         <span role="img" aria-label="sparkle">
           ✨
         </span>
-        Discover What’s Hot Right Now
+        Girligirl's Trendy Fashion Essentials
       </h2>
       <p className="mt-4 max-w-2xl mx-auto text-gray-500 text-base">
         These are the essentials items our Girligirl community can’t get enough

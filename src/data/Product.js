@@ -293,11 +293,80 @@ export const allServices = [
 
 export const WomenProducts = [
   {
+    id: 15,
+    name: "Watch",
+    price: 1680,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-48 (4).jpg",
+    category: "Women",
+  },
+  {
+    id: 16,
+    name: "Ornaments",
+    price: 1240,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-48 (3).jpg",
+    category: "Women",
+  },
+  {
+    id: 17,
+    name: "Watch",
+    price: 1590,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-48.jpg",
+    category: "Watch",
+  },
+  {
+    id: 18,
+    name: "eardrop ",
+    price: 800,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-47.jpg",
+    category: "Women",
+  },
+  {
+    id: 19,
+    name: "eardrop ",
+    price: 1890,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-47 (4).jpg",
+    category: "Women",
+  },
+  {
+    id: 20,
+    name: "eardrop ",
+    price: 1700,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-47 (2).jpg",
+    category: "Women",
+  },
+  {
+    id: 21,
+    name: "ornaments",
+    price: 1900,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-47 (3).jpg",
+    category: "Women",
+  },
+  {
+    id: 22,
+    name: "Womens Bag",
+    price: 1046,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-46.jpg",
+    category: "Women",
+  },
+  {
+    id: 23,
+    name: "eardrop",
+    price: 1890,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-46 (5).jpg",
+    category: "Women",
+  },
+  {
+    id: 23,
+    name: "bracelet",
+    price: 500,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-46 (4).jpg",
+    category: "Women",
+  },
+  {
     id: 1,
     name: "Women's Sharee",
     price: 2190,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-RN-F4-25001-1.webp",
+    image: "/img/product/half_silk_sharee3.webp",
     category: "Women",
   },
 
@@ -305,50 +374,44 @@ export const WomenProducts = [
     id: 2,
     name: "Women's Single Kamiz",
     price: 3190,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2025/05/RBL-SHR-F7-00719-6-768x768.webp",
+    image: "/img/product/linen_kamiz.webp",
     category: "Women",
   },
   {
     id: 3,
     name: "Women's Sharee",
     price: 1790,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2024/01/RBL-SHR-00475-5-595x595.webp",
+    image: "/img/product/half_silk_sharee.webp",
     category: "Women",
   },
   {
     id: 4,
     name: "Women's Single Kamiz",
     price: 1590,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RBL-KMZ-F4-00199-1-595x595.webp",
+    image: "/img/product/half_silk_sharee4.webp",
     category: "Women",
   },
 
   {
     id: 5,
-    name: "Women sharee",
+    name: "Cotton kamiz",
     price: 3290,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RBL-SHR-F4-00708-5-768x768.webp",
+    image: "/img/product/cotton_kamiz1.webp",
     category: "Women",
   },
 
   {
     id: 6,
-    name: "Women's Single Kamiz",
+    name: "Women's Cotton Sitched Dress",
     price: 1750,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-KMZ-RN-F4-25001-1-595x595.webp",
+    image: "/img/product/cotton_sitched_dress.webp",
     category: "Women",
   },
   {
     id: 7,
-    name: "Cotton stitched dress",
+    name: "eardrop for Women",
     price: 2050,
-    image:
-      "https://rang-bd.com/wp-content/uploads/2025/05/RBL-DT-F7-00248-6-595x595.webp",
+    image: "/yearing.jpg",
     category: "Women",
   },
 
@@ -358,7 +421,7 @@ export const WomenProducts = [
     price: 2490,
     image:
       "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-NJ-C1-25088-3-768x768.webp",
-    category: "Eid ul-Adha",
+    category: "Women",
   },
   {
     id: 10,
@@ -367,5 +430,70 @@ export const WomenProducts = [
     image:
       "https://rang-bd.com/wp-content/uploads/2025/05/Rang-Bangladesh-RB-W-SHR-NJ-ET-25099-3-768x768.webp",
     category: "Sale Offer",
+  },
+  {
+    id: 11,
+    name: "Baby Dress",
+    price: 1590,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-43 (2).jpg",
+    category: "Baby",
+  },
+  {
+    id: 12,
+    name: "Nail palish",
+    price: 690,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-43 (4).jpg",
+    category: "Women",
+  },
+  {
+    id: 13,
+    name: "Ornaments",
+    price: 1590,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-48 (6).jpg",
+    category: "Women",
+  },
+  {
+    id: 14,
+    name: "Watch",
+    price: 2090,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-48 (5).jpg",
+    category: "Women",
+  },
+];
+
+export const galleryImages = [
+  {
+    id: 1,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-43.jpg",
+  },
+  {
+    id: 2,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-43 (3).jpg",
+  },
+  {
+    id: 3,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-44 (2).jpg",
+  },
+  {
+    id: 4,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-44 (3).jpg",
+  },
+  {
+    id: 5,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-44.jpg",
+  },
+
+  {
+    id: 6,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-45.jpg",
+  },
+
+  {
+    id: 10,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-46.jpg",
+  },
+  {
+    id: 11,
+    image: "/img/ourproduct/photo_2025-05-28_13-44-47.jpg",
   },
 ];

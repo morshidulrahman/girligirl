@@ -10,6 +10,7 @@ const categories = [
   "New Arrival",
   "Sale Offer",
   "Women",
+  "Baby",
 ];
 
 const page = () => {

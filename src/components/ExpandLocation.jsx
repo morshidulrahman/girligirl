@@ -8,7 +8,7 @@ const ExpandLocation = () => {
         <div>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.1421537729652!2d90.4039979805029!3d24.75631472126527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37564f78e0cd5b79%3A0xa486c16f9b26f38b!2sKazi%20tower!5e0!3m2!1sen!2sbd!4v1748462304448!5m2!1sen!2sbd"
-            width={800}
+            width={900}
             height={450}
             style={{ border: 0 }}
             allowFullScreen=""

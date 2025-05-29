@@ -18,7 +18,7 @@ const stats = [
 
 const AboutPage = () => {
   return (
-    <div className="bg-white  pb-12">
+    <div className="bg-white pb-12">
       {/* Breadcrumb */}
       <div className="max-w-5xl mx-auto px-4 pt-6 text-xs text-gray-500">
         <Link href="/" className="mr-2">

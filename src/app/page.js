@@ -1,3 +1,4 @@
+import HowItWorks from "@/components/about/HowItWorks";
 import ExpandLocation from "@/components/ExpandLocation";
 import FeatureOfBeauty from "@/components/FeatureOfBeauty";
 import Hero from "@/components/Hero";
@@ -16,7 +17,7 @@ export default function Home() {
       <OurGallery />
       <TrendingService />
       <OurProduct />
-      <OurServiceInAction />
+      <HowItWorks />
       <ExpandLocation />
     </div>
   );

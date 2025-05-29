@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://girli-girl.com
+
+# Sitemaps
+Sitemap: https://girli-girl.com/sitemap.xml
